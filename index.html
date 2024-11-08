@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body>
+    <h1 class="animate__animated animate__lightSpeedInRight">
+      Result Checker by Switch Case
+    </h1>
+    <form>
+      <h3 class="animate__animated animate__rotateIn">Your Name</h3>
+      <input
+        type="text"
+        id="value-1"
+        placeholder="Your Answer"
+        required
+        onmouseover="this.style.background='yellow'"
+        onmouseleave="this.style.background='white'"
+      />
+      <br />
+      <h3 class="animate__animated animate__rotateIn">Roll number</h3>
+      <input
+        type="text"
+        id="value-2"
+        placeholder="Your Answer"
+        required
+        onmouseover="this.style.background='yellow'"
+        onmouseleave="this.style.background='white'"
+      />
+      <br />
+      <br />
+      <br />
+      <button onclick="check()" class="animate__animated animate__rotateIn">check result</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
